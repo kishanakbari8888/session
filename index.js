@@ -88,8 +88,9 @@ app.post('/register',(req,res)=>{
 });
 
 
+
 app.get('/register',(req,res)=>{
-    
+    //console.log
     res.render('regiter',{err:null});
 })
 
